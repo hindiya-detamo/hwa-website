@@ -1,0 +1,130 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html2 {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.header-bg {
+  background-color: #302d64;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  background-image: url(../home-bg1.jpg);
+  background-color: #302d64;
+  background-blend-mode: luminosity;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav {
+      height: 90px;
+      line-height: 64px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.banner-img {
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+.hide-on-med-and-down a {
+  color: #FFFFFF;
+}
+
+.banner p {
+  font-size: 52px;
+  line-height: 54px;
+}
+
+.banner span {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.blue-footer {
+  background-color: #23253c !important;
+  color: #b7b6dd;
+}
+
+.container h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  padding-bottom: 18px;
+}
+
+.services h2 {
+  font-size: 21px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  font-variant: all-small-caps;
+}
+
+.services-detail ul {
+  list-style: none;
+  margin: 0 0 20px 20px;
+  line-height: 42px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.services-detail ul li {
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.address {
+  line-height: 0px;
+}
+
+.address img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+}
